@@ -1,0 +1,17 @@
+h1{
+    display: inline;
+    color:#EECD86;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vw;
+}
+.welcome{
+    height: 5vw;
+    width: 95vw;
+    background-color: #333;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #000 inset;
+}
