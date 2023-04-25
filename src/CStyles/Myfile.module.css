@@ -6,12 +6,10 @@
 label{
     background-color: #3D3242;
     width: 400px;
-    height: 50px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
 }
 label b{
     color: #EECD86;
@@ -22,9 +20,14 @@ textarea{
     background-color: #333;
     border: none;
     outline: none;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 15px;
     color: #EECD86;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+@media only screen and (max-width:400px) {
+    label , textarea{
+        width: 300px;
+    }
 }

@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Input htmlValue={htmlValue} cssValue={cssValue} jsValue={jsValue} setHtmlValue={setHtmlValue} setCssValue={setCssValue} setJsValue={setJsValue}/>
-      <Output htmlValue={htmlValue}/>
+      <Output htmlValue={htmlValue} cssValue={cssValue} jsValue={jsValue}/>
     </div>
   );
 }

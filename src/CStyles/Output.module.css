@@ -1,8 +1,8 @@
 .myIframe{
-    border-radius: 20px;
-    width: 80vw;
-    height: 50vh;
+    width: 98vw;
+    height: 98vh;
+    background-color: white;
 }
 h2{
-    color: #333;
+    color: #EECD86;
 }
