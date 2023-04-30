@@ -2,11 +2,11 @@ h1{
     display: inline;
     color:#EECD86;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 4vh;
+    font-size: 22px;
 }
 .welcome{
     height: 10vh;
-    width: 95vh;
+    width: 95vw;
     background-color: #333;
     border-radius: 20px;
     display: flex;
@@ -20,6 +20,6 @@ h1{
     width: 95vw;
    }
    .h1{
-    font-size: 3vw;
+    font-size: 20px;
    }
 }
